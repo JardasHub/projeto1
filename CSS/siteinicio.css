@@ -1,0 +1,166 @@
+*{ margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    background-color: rgb(220, 220, 220);
+}
+
+header{
+    background-color: black;
+}
+
+h6{
+    color: white;
+}
+
+u{
+    color: aliceblue;
+    font-size: 20px ;
+    display: inline-block;;
+}
+
+a{
+    color: aliceblue;
+    font-size: 30px ;
+    transition: background-color 0.5s, color 0.5s; /* Transição suave de cor */  
+}
+
+a:hover{
+    color:  #18c273; /* Cor do texto ao passar o mouse */
+    transition: background-color 0.5s, color 0.5s; /* Transição suave de cor */
+}
+
+.nome{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.product-image{
+    border: 2px solid black; /* Borda */
+    border-radius: 25px;
+    padding: 25px 25px;
+}
+
+.login{
+    color: #18c273; /* Cor do texto */
+    text-decoration: none; /* Remover sublinhado padrão */
+    font-weight: bold; /* Deixar o texto em negrito */
+    font-size: 16px; /* Tamanho da fonte */
+    padding: 10px 35px; /* Espaçamento interno */
+    border: 2px solid #18c273; /* Borda */
+    border-radius: 25px; /* Borda arredondada */
+    transition: background-color 0.5s, color 0.5s; /* Transição suave de cor */
+    margin-right: 20px;
+}
+
+.ofertas{
+    text-decoration: none; /* Remover sublinhado padrão */
+    font-size: 20px;
+}
+
+.inicio{
+    margin-left: 25px;
+    text-decoration: none; /* Remover sublinhado padrão */
+    font-size: 20px;
+}
+
+.sobre{
+    text-decoration: none; /* Remover sublinhado padrão */
+    font-size: 20px ;
+}
+
+.logo{
+    text-decoration: none; /* Remover sublinhado padrão */
+    flex-grow: 1;
+    text-align: center;
+    font-size: 50px ;
+    margin-right: 50px;
+}
+
+.login:hover{
+    background-color: #18c273; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */   
+}
+
+.container{
+    gap: 15px;                         /* Espaço entre os containers*/
+    display: flex;                     /* Diz que é container ao vsc*/
+    flex-direction: row;               /* Deixa apenas na linha*/
+    align-items: center;               /* Deixa os itens do container centralizados*/
+}
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 85px;
+    
+
+}
+
+.botaodecompra{
+    color: #335ac5;
+    border: 2px solid #335ac5; /* Borda */
+    border-radius: 25px; /* Borda arredondada */
+    transition: background-color 0.5s, color 0.5s; /* Transição suave de cor */
+    text-decoration: none; /* Remover sublinhado padrão */
+    font-size: 15px;
+    padding: 4px 15px; /* Espaçamento interno */
+}
+
+.botaodecompra:hover{
+    background-color: #335ac5;
+    color: white;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    background-color: #18c273;
+    margin-right: 250px;
+}
+
+.carrinho{
+    margin-right: 30px;
+}
+
+.carrinho:hover{
+    color: #18c273;
+    background-color: #18c273;
+}
+
+#ofertass{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.Instas{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.Instas > div{
+    margin-left: 14%;
+    margin-right: 14%;
+    border: 4px solid black;
+    border-radius: 25px;
+    padding: 14px 15px;
+}
+
+.Instas > div > p{
+    font-size: 20px;
+    text-align: center;
+}
