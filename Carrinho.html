@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRINHO</title>
+    
+    <script src="JavaScript/loginsitedecompra.js"></script>
+    <link rel="stylesheet" href="CSS/siteinicio.css">
+</head>
+<body>
+    <div class="navbar">
+        <header>
+          <div class="container">
+            <div>
+            <a class="inicio" href="Lojadeinicio2.html">Inicio</a>
+           
+            <a class="ofertas" href="Ofertas.html">Ofertas</a>
+           
+            <a class="sobre" href="Sobre.html">Sobre</a>
+            </div>
+            <u class="logo">ɢǟʍɮʟɛʀ'ֆ ռɨɢɦȶ</u>
+            <div class="model">
+              <div class="dropdown">
+                  <a class="nome" id="nome" onclick="bemVindo()" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a> <!-- Exibe o nome do usuário aqui -->
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="index.html">Sair</a>
+                </div>
+              </div>
+              <a onclick="abreCarrinho()" class="carrinho" href=""><img height="50" src="Imagens/Carrinho De Compras.jpg" alt="Carrinho de compras"></a>
+            </div>
+    
+          </div>
+        </header>
+      </div>
+      <br><br><br>
+      <h1 style="text-align: center;">Seu Carrinho</h1>
+      <br><br>
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th class="table-head-item first-col">Item</th>
+            <th class="table-head-item second-col">Preço</th>
+            <th class="table-head-item third-col">Quantidade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="cart-product">
+          <td class="product-identification">
+            <img class="cart-product-image" src="" alt="">
+            <strong class="cart-product-title">Nome Item</strong>
+          </td>
+          <td>
+            <span id="" class="cart-product-price">R$20,56</span>
+          </td>
+          <td>
+            <input class="product-qtd-input" type="number" value="1" min="0" max="10">
+            <button class="remove-product-button" type="button">Remover</button>
+          </td>
+        </tr>  
+        <tr class="cart-product">
+          <td class="product-identification">
+            <img class="cart-product-image" src="" alt="">
+            <strong class="cart-product-title">Nome Item</strong>
+          </td>
+          <td>
+            <span class="cart-product-price">R$30,98</span>
+          </td>
+          <td>
+            <input class="product-qtd-input" type="number" value="1" min="0" max="10">
+            <button type="button" class="remove-product-button" >Remover</button>
+          </td>
+        </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" class="cart-total-container">
+              <strong>Total</strong>
+              <span>R$0,00</span>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+      <button class="purchase-button" type="button">Finalizar Compra</button>
+</body>
+</html>
